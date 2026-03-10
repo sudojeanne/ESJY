@@ -1,0 +1,289 @@
+/*003a32
+dfa5f9*/
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+h2 {
+  font-family: esjy, sans-serif;
+}
+
+h1 {
+  font-family: esjy, sans-serif;
+  color: #096856;
+}
+
+.h1modal {
+  margin-top: 30px;
+}
+
+.h1qui {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.quibtn {
+  border-radius: 10px;
+  padding: 10px 10px 0px 10px !important;
+  width: 25%;
+  text-decoration: none;
+  margin-top: 5%;
+}
+
+.quibtn h1 {
+  color: #096856;
+  text-decoration: none;
+  font-size: 30px !important;
+}
+
+.quibtn:hover h1 {
+  color: #dfa5f9;
+  transition: color 0.5s;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.activetop {
+  color: #dfa5f9 !important;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #dfa5f9;
+  color: #096856;
+  border: 0;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  padding: 10px;
+  background-color: #096856;
+  color: #dfa5f9;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+}
+
+/* NAVIGATION PORTAIL */
+.portnav {
+  width: 100%;
+}
+
+.portitem {
+  width: 22vw;
+  height: 60px;
+  background-color: #096856;
+  color: white;
+  font-family: esjy, sans-serif;
+  font-size: 1.2em;
+}
+
+.portitem:hover {
+  color: #dfa5f9;
+  transition: color 0.5s;
+}
+
+.card-text {
+  text-align: center;
+}
+
+/* MODAL POPUP */
+.modal-header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.md1 {
+  background-image: url("../images/CD/CDcover.jpg");
+}
+
+.md2 {
+  background-image: url("../images/EAIE/EAIE20243.jpg");
+}
+
+.md3 {
+  background-image: url("../images/mep/mepcover.jpg");
+}
+
+.md4 {
+  background-image: url("../images/annif/Boriscover.jpg");
+}
+
+.md5 {
+  background-image: url("../images/Logos/logocover.jpg");
+}
+
+.mh1 {
+  background-image: url("../images/mep/mep4.jpg");
+}
+
+.mh2 {
+  background-image: url("../images/illustration/illustrationcover.jpg");
+}
+
+.mh3 {
+  background-image: url("../images/photos/photo6.jpg");
+}
+
+.mh4 {
+  background-image: url("../images/Portfolioimg/photo4.jpg");
+}
+
+.mw1 {
+  background-image: url("../images/CD/CDcover.jpg");
+}
+
+.mw2 {
+  background-image: url("../images/space/space6.jpg");
+}
+
+.mw3 {
+  background-image: url("../images/it-school/IT-school1.jpg");
+}
+
+.mw4 {
+  background-image: url("../images/Pharma/pharmacover.jpg");
+}
+
+.modal-body {
+  padding: 5%;
+}
+
+.modal-footer {
+  background-color: #096856;
+}
+
+.menutop {
+  font-family: esjy, sans-serif;
+  font-size: 2em;
+  padding: 0 7% 0 7%;
+}
+
+.navbar {
+  background-color: #096856 !important;
+}
+
+.linktop {
+  color: white;
+  margin-right: 50px;
+}
+
+.linktop:hover {
+  color: #dfa5f9;
+  transition: color 0.5s;
+}
+
+.logo {
+  height: 50px;
+}
+
+.iconesdr {
+  float: right;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0;
+  align-items: none;
+}
+
+.modalcard {
+  width: 20rem;
+}
+
+.maincard {
+  width: 24rem;
+}
+
+/* QUI */
+#descr {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.profil {
+  width: 400px;
+}
+
+.desctxt {
+  width: 40%;
+}
+
+@media (max-width: 60rem) {
+  .desctxt {
+    width: 90%;
+  }
+}
+.iconquidiv {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.iconqui img {
+  width: 100%;
+}
+
+.iconqui {
+  width: 150px;
+  margin: 30px;
+}
+
+.iconqui:hover .nul {
+  display: flex;
+}
+.iconqui:hover .go {
+  display: none;
+}
+
+.nul {
+  display: none;
+}
+
+.quism {
+  margin-right: 20px;
+}
+
+/* PARALLAX */
+.scene {
+  position: absolute;
+  width: 100%;
+  transform: translateY(var(--translateY));
+  will-change: transform;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: #096856;
+  margin-top: 5%;
+  opacity: 50%;
+}
+
+.footerref {
+  color: #ffffff;
+  opacity: 1;
+  margin-right: 20%;
+  padding-top: 50px;
+  float: right;
+}
+
+.footerref a {
+  color: #dfa5f9;
+}/*# sourceMappingURL=style.css.map */
