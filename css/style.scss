@@ -2,6 +2,11 @@
 $white: #ffffff;
 $pink: #dfa5f9;
 $blue: #096856;
+@font-face {
+  font-family: 'ESJY';
+  src: url('../ESJY.ttf') format('truetype');
+}
+
 
 /*003a32
 dfa5f9*/
@@ -15,9 +20,10 @@ dfa5f9*/
 }
 
 
-h2 { font-family: esjy, sans-serif; }
-h1 { font-family: esjy, sans-serif;
+h2 { font-family: ESJY, sans-serif; }
+h1 { font-family: ESJY, sans-serif;
 color: $blue }
+
 
 .h1modal{
   margin-top: 30px;
@@ -35,8 +41,13 @@ color: $blue }
   padding:10px 10px 0px 10px  !important;
   width:25%;
 text-decoration: none;
-  margin-top:5%;
+  margin-top:40px  !important
   
+}
+ @media (max-width: 60rem) {
+   .quibtn{
+      width:80%
+     }
 }
 
 
@@ -101,9 +112,14 @@ background-color: $blue;
     height:60px;
     background-color: $blue;
     color:white;
-      font-family: esjy, sans-serif;
+      font-family: ESJY, sans-serif;
       font-size: 1.2em;
 }
+ @media (max-width: 30rem) {
+   .portitem{
+      width:27vw;
+     }
+    }
 .portitem:hover{
   color:$pink;
     transition: color 0.5s;
@@ -173,7 +189,7 @@ background-color: $blue;
 }
 
 .menutop{
-  font-family: esjy, sans-serif;
+  font-family: ESJY, sans-serif;
   font-size: 2em;
   padding:  0 7% 0 7%
  
