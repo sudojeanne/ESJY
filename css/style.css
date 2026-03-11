@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "ESJY";
+  src: url("../ESJY.ttf") format("truetype");
+}
 /*003a32
 dfa5f9*/
 .noto-sans {
@@ -9,11 +13,11 @@ dfa5f9*/
 }
 
 h2 {
-  font-family: esjy, sans-serif;
+  font-family: ESJY, sans-serif;
 }
 
 h1 {
-  font-family: esjy, sans-serif;
+  font-family: ESJY, sans-serif;
   color: #096856;
 }
 
@@ -33,9 +37,14 @@ h1 {
   padding: 10px 10px 0px 10px !important;
   width: 25%;
   text-decoration: none;
-  margin-top: 5%;
+  margin-top: 40px !important;
 }
 
+@media (max-width: 60rem) {
+  .quibtn {
+    width: 80%;
+  }
+}
 .quibtn h1 {
   color: #096856;
   text-decoration: none;
@@ -88,10 +97,15 @@ p {
   height: 60px;
   background-color: #096856;
   color: white;
-  font-family: esjy, sans-serif;
+  font-family: ESJY, sans-serif;
   font-size: 1.2em;
 }
 
+@media (max-width: 30rem) {
+  .portitem {
+    width: 27vw;
+  }
+}
 .portitem:hover {
   color: #dfa5f9;
   transition: color 0.5s;
@@ -170,7 +184,7 @@ p {
 }
 
 .menutop {
-  font-family: esjy, sans-serif;
+  font-family: ESJY, sans-serif;
   font-size: 2em;
   padding: 0 7% 0 7%;
 }
