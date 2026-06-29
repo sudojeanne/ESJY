@@ -203,6 +203,27 @@ p {
   transition: color 0.5s;
 }
 
+.toggletop {
+  text-decoration: none;
+  list-style-type: none;
+  color: #ffffff !important;
+  opacity: 0.5;
+}
+
+.dropit {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+}
+
+.dropit:hover {
+  background-color: #096856;
+  color: white;
+}
+
+.dropactive {
+  background-color: #dfa5f9;
+}
+
 .logo {
   height: 50px;
 }
