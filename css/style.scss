@@ -211,6 +211,29 @@ background-color: $blue;
 
 
 }
+
+.toggletop{
+text-decoration: none;
+list-style-type: none;
+color:#ffffff !important;
+opacity:0.5;
+}
+
+
+.dropit{
+    font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+
+}
+.dropit:hover{
+  background-color: $blue;
+  color:white;
+
+}
+.dropactive{
+  background-color: $pink;
+  
+}
 .logo{
   height:50px;
 }
